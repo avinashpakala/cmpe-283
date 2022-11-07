@@ -8,7 +8,7 @@
    --network-interface=network-tier=PREMIUM,subnet=default --maintenance-policy=MIGRATE --provisioning-model=STANDARD 
    --service-account=1053649804908-compute@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/cloud-platform 
    --tags=http-server,https-server --min-cpu-platform=Intel\ Cascade\ Lake 
-   --create-disk=auto-delete=yes,boot=yes,device-name=instance-1,image=projects/ubuntu-os-cloud/global/images/ubuntu-1804-bionic-v20221018,mode=rw,size=100,type=projects/cmpe-283-virtualization-367909/zones/us-central1-a/diskTypes/pd-ssd 
+   --create-disk=auto-delete=yes,boot=yes,device-name=instance-1,image=projects/ubuntu-os-cloud/global/images/ubuntu-1804-bionic-v20221018,mode=rw,size=100,type=projects/cmpe-283-assignment-367906/zones/us-central1-a/diskTypes/pd-ssd 
    --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --reservation-affinity=any 
    --enable-nested-virtualization
    
