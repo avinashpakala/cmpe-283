@@ -24,7 +24,7 @@
 8. Check the kernel version and install that version using the below commands in the screenshot.
     <img width="621" alt="Screen Shot 3" src="https://github.com/avinashpakala/cmpe-283/blob/main/Assignment1/Screenshot%202022-11-07%20at%2012.33.23%20PM.png">
 9. Execute the “make” command to create the kernel object.
-10. Execute sudo “insmod cmpe 283-1.ko” command to load the kernel object.
+10. Execute sudo insmod cmpe283-1.ko command to load the kernel object.
 11. Now, To view the output use the “dmesg” command.
     <img width="621" alt="Screen Shot 1" src="https://github.com/avinashpakala/cmpe-283/blob/main/Assignment1/Screenshot%202022-11-07%20at%2012.26.17%20PM.png">
     <img width="622" alt="Screen Shot 2" src="https://github.com/avinashpakala/cmpe-283/blob/main/Assignment1/Screenshot%202022-11-07%20at%2012.26.39%20PM.png">
