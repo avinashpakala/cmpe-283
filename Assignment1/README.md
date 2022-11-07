@@ -4,7 +4,7 @@
 2. Once a Project is created enable “Compute Engine API” for that project to create and manage Virtual Machines.
 3. Once we enable Compute Engine API, Create Virtual Machine Instance using the below command. (also enable nested-virtualization)
    
-   gcloud compute instances create instance-1 --project=cmpe-283-virtualization-367909 --zone=us-central1-a --machine-type=n2-standard-8
+   gcloud compute instances create instance-1 --project=cmpe-283-assignment --zone=us-central1-a --machine-type=n2-standard-8
    --network-interface=network-tier=PREMIUM,subnet=default --maintenance-policy=MIGRATE --provisioning-model=STANDARD 
    --service-account=1053649804908-compute@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/cloud-platform 
    --tags=http-server,https-server --min-cpu-platform=Intel\ Cascade\ Lake 
