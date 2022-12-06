@@ -1,10 +1,10 @@
-## For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
+## Team Contribution
 
 </br>
  Avinash :</br>
-Created the kernel </br>
-In the VM,  installed the necessary kernel modules. </br>
-Comprehended and researched the assignment's code. </br>
+Kernel Creation </br>
+Installation necessary kernel modules in the VM </br>
+Research the assignments code and made reflections </br>
 The code has been updated to reflect the changes that were discussed. </br>
 README.md has been updated and documentation has been created.</br>
 
