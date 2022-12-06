@@ -19,26 +19,27 @@ Test files were created and compiled.</br>
 </br>
 </br>
 
-## Assignment 2: Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
+## Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
 
-This assignment (A2) is to modify the CPUID emulation code in KVM to report back additional information when special CPUID leaf nodes are requested:</br>
-  •	For CPUID leaf node %eax=0x4FFFFFFC:<br />
-  o	Return the total number of exits (all types) in %eax <br />
-  •	For CPUID leaf node %eax=0x4FFFFFFD:  <br />
-  o	Return the high 32 bits of the total time spent processing all exits in %ebx <br />
-  o	Return the low 32 bits of the total time spent processing all exits in %ecx<br />
-  	%ebx and %ecx return values are measured in processor cycles, across all VCPUs<br />
+This assignment is to modify the CPUID emulation code in KVM to report back additional information when special CPUID leaf nodes are requested:</br>
+   For CPUID leaf node %eax=0x4FFFFFFC:<br />
+   Return the total number of exits (all types) in %eax <br />
+   For CPUID leaf node %eax=0x4FFFFFFD:  <br />
+   Return the high 32 bits of the total time spent processing all exits in %ebx <br />
+   Return the low 32 bits of the total time spent processing all exits in %ecx<br />
+  	%ebx and %ecx return values are measured in processor cycles, across all VCPUs<br />
+
 At a high level, you will need to perform the following:<br />
-  •	Start with your assignment 1 environment<br />
-  •	Modify the kernel code with the assignment(s) functionality:<br />
-  o	Determine where to place the measurement code (for exit counts and # cycles)<br />
-  o	Create new CPUID leaf 0x4FFFFFFD, 0x4FFFFFFC<br />
-Report back information as described above<br />
+  	Execute your assignment 1 environment<br />
+  Then modify the kernel code with the assignment 2(s) functionality:<br />
+  Now, Determine where to place the measurement code (for exit counts and # cycles)<br />
+  Create new CPUID leaf 0x4FFFFFFD, 0x4FFFFFFC<br />
+   Report back information as described above<br />
+
+
 Instructions:<br />
 •	In Google Cloud Platform, create a VM as done in assignment 1
-
 •	Fork the Kernel code from GitHub: ` git clone https://github.com/torvalds/linux.git ` into personal repository
-
 •	Clone the Kernel code from personal repository into GCP VM<br />
 •	Kernel Code Compilation<br />
 o	Install required pacakages: apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev<br />
@@ -49,8 +50,8 @@ o	Check current os info: uname -a <br/>
 
 
 Build the kernel through the following commands:<br />
-<img width="468" alt="image" src="">
-
+<!-- <img width="468" alt="image" src="">
+ -->
     - sudo make -j 8 modules
     - sudo make -j 8
     - While compiling the kernel, an error may occur, to prevent please enter the below commands
