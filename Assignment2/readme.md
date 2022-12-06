@@ -1,22 +1,6 @@
-## Team Contribution
 
-</br>
- Avinash :</br>
-Kernel Creation </br>
-Installation necessary kernel modules in the VM </br>
-Research the assignments code and made reflections </br>
-The code has been updated to reflect the changes that were discussed. </br>
-README.md has been updated and documentation has been created.</br>
 
-</br>
-Vikas Tadepu :</br>
-Created the kernel </br>
-Reviewed the canvas lecture and understood the steps to be taken </br>
-Did some research on CPUID instructions and CPU leaf nodes. </br>
-Recognized where and what changes to make in order to complete the assignment </br>
-Test files were created and compiled.</br>
 
-</br>
 </br>
 
 ## Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
@@ -127,7 +111,24 @@ Inner VM screenshots </br>
 <img width="327" alt="ubuntu1" src="https://user-images.githubusercontent.com/61676560/205847541-9a2bcb4c-b28b-456a-a603-7e504ed850d5.png">
 
 
- 
+## Team Contribution
+ </br>
+ Avinash :</br>
+Kernel Creation </br>
+Installation necessary kernel modules in the VM </br>
+Research the assignments code and made reflections </br>
+The code has been updated to reflect the changes that were discussed. </br>
+README.md has been updated and documentation has been created.</br>
+
+</br>
+Vikas Tadepu :</br>
+Created the kernel </br>
+Reviewed the canvas lecture and understood the steps to be taken </br>
+Did some research on CPUID instructions and CPU leaf nodes. </br>
+Recognized where and what changes to make in order to complete the assignment </br>
+Test files were created and compiled.</br>
+
+</br>
 
  
 
