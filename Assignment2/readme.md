@@ -1,7 +1,7 @@
-For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
+## For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
 
 </br>
-Avinash :</br>
+ Avinash :</br>
 Created the kernel </br>
 In the VM,  installed the necessary kernel modules. </br>
 Comprehended and researched the assignment's code. </br>
@@ -19,7 +19,7 @@ Test files were created and compiled.</br>
 </br>
 </br>
 
-Assignment 2: Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
+## Assignment 2: Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
 
 This assignment (A2) is to modify the CPUID emulation code in KVM to report back additional information when special CPUID leaf nodes are requested:</br>
   •	For CPUID leaf node %eax=0x4FFFFFFC:<br />
