@@ -45,6 +45,8 @@ o	Install required pacakages: apt-get install build-essential kernel-package fak
 o	Check current os info: uname -a <br/>
 •	Change .config file: cp -v /boot/{your kernel}./.config<br />
 
+<img width="1206" alt="Screenshot 2022-12-05 at 10 08 05 PM" src="https://user-images.githubusercontent.com/61676560/205847814-2f66fc1b-7606-49e6-b432-63aa37723e87.png">
+
 
 Build the kernel through the following commands:<br />
 <img width="468" alt="image" src="">
@@ -111,7 +113,6 @@ For testing the functionality, an nested VM was created in the GCP VM. The steps
     - **username**: `ubuntu`
     - **password**: `testing`
     
-<img width="800" alt="image" src="">
 
 
 
@@ -121,12 +122,9 @@ Please find the screenshots below of the execution
  
 Outputs:</br>
 Inner VM screenshots </br>
-
- <img width="500" alt="image" src="">
  
- Side by Side Inner Vm Screenshots </br>
+<img width="327" alt="ubuntu1" src="https://user-images.githubusercontent.com/61676560/205847541-9a2bcb4c-b28b-456a-a603-7e504ed850d5.png">
 
-<img width="800" alt="image" src="">
 
  
 
