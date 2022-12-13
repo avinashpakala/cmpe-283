@@ -167,19 +167,20 @@ Comment on the frequency of exits – does the number of exits increase at a sta
  Assignment done in group.
 Team Contribution
 
-Avinash :
-Kernel Creation
-Installation necessary kernel modules in the VM
-Research the assignments code and made reflections
-The code has been updated to reflect the changes that were discussed.
-README.md has been updated and documentation has been created.
+ Avinash :</br>
+Kernel Creation </br>
+Installation necessary kernel modules in the VM </br>
+Research the assignments code and made reflections </br>
+The code has been updated to reflect the changes that were discussed. </br>
+README.md has been updated and documentation has been created.</br>
 
-Vikas Tadepu :
-Created the kernel
-Reviewed the canvas lecture and understood the steps to be taken
-Did some research on CPUID instructions and CPU leaf nodes.
-Recognized where and what changes to make in order to complete the assignment
-Test files were created and compiled.
+</br>
+Vikas Tadepu :</br>
+Created the kernel </br>
+Reviewed the canvas lecture and understood the steps to be taken </br>
+Did some research on CPUID instructions and CPU leaf nodes. </br>
+Recognized where and what changes to make in order to complete the assignment </br>
+Test files were created and compiled.</br>
 
 <br />
 
