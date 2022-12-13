@@ -21,7 +21,7 @@ Instructions
 
 
  
-A3 Questions:
+###  Questions:
 
 # Does the number of exits increase at a stable rate?
   * No, certain exits grow, while others stay the same. The ones that rise have varying increment ratios depending on the kind of exit.
