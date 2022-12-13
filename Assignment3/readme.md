@@ -1,8 +1,8 @@
 ### Assignment 3
-Question 1:
-Assignment done By myself.
 
-Question 2: (Steps used to complete the assignment)
+
+##Question 2: 
+(Steps used to complete the assignment)
 Downloaded the source code in the VM from official kernel website.
 
 sudo apt-get install wget
@@ -100,7 +100,7 @@ T1: sudo dmesg
 
     
 
-Question 3:
+##Question 3:
 Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are theremore exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
 
 For exits, HLT(10) and CPUID(12) the number of exits increases at a stable rates as these exits are called fairly regularly.
@@ -108,7 +108,7 @@ For exits, HLT(10) and CPUID(12) the number of exits increases at a stable rates
 Output:  
 
 
-Question 4:
+##Question 4:
 Following are some of the most frequently called exits:
 Exit #49 - EPT_MISCONFIG
 Exit #30 - IO_INSTRUCTION
@@ -117,3 +117,21 @@ Following are some of the least frequently called exits(>0):
 Exit #54 - WBINVD
 Exit #29 - DR_ACCESS
 Exit #0 - EXCEPTION_NMI
+    
+##Question 1:
+Assignment done in group.
+Team Contribution
+
+Avinash :
+Kernel Creation
+Installation necessary kernel modules in the VM
+Research the assignments code and made reflections
+The code has been updated to reflect the changes that were discussed.
+README.md has been updated and documentation has been created.
+
+Vikas Tadepu :
+Created the kernel
+Reviewed the canvas lecture and understood the steps to be taken
+Did some research on CPUID instructions and CPU leaf nodes.
+Recognized where and what changes to make in order to complete the assignment
+Test files were created and compiled.
