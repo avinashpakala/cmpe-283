@@ -1,24 +1,5 @@
 ### Assignment 3
-# For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
 
-</br>
-Avinash :</br>
-Created the kernel </br>
-In the VM,  installed the necessary kernel modules. </br>
-Comprehended and researched the assignment's code. </br>
-The code has been updated to reflect the changes that were discussed. </br>
-Test files were created and compiled.</br>
-
-</br>
-Vikas :</br>
-Created the kernel </br>
-Reviewed the canvas lecture and understood the steps to be taken </br>
-Did some research on CPUID instructions and CPU leaf nodes. </br>
-Recognized where and what changes to make in order to complete the assignment </br>
-README.md has been updated and documentation has been created.</br>
-
-</br>
-</br>
 
 # Assignment 3: Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
 Screenshots :
@@ -55,6 +36,25 @@ A3 Questions:
   * The most common exit reason is EXIT REASON EPT VIOLATION(48), while the least common exit reason is EXIT REASON DR ACCESS(29).
   * Additionally, the biggest increment over time is for EXIT REASON MSR READ(31), whereas the lowest increment is for EXIT REASON EPT VIOLATION(48).
 
+# Team Contribution.
 
+</br>
+Avinash :</br>
+Created the kernel </br>
+In the VM,  installed the necessary kernel modules. </br>
+Comprehended and researched the assignment's code. </br>
+The code has been updated to reflect the changes that were discussed. </br>
+Test files were created and compiled.</br>
+
+</br>
+Vikas :</br>
+Created the kernel </br>
+Reviewed the canvas lecture and understood the steps to be taken </br>
+Did some research on CPUID instructions and CPU leaf nodes. </br>
+Recognized where and what changes to make in order to complete the assignment </br>
+README.md has been updated and documentation has been created.</br>
+
+</br>
+</br>
 
 
