@@ -16,12 +16,6 @@
     - Return the high 32 bits of the total time spent processing for an exit number in **%ebx**.
     - Return the low 32 bits of the total time spent processing for an exit number in **%ecx**.
 
-<br />
-
-## Question 1:
-  - Assignment done By myself.
-
-<br />
 
 ## Question 2: (Steps used to complete the assignment)
 1) Downloaded the source code in the VM from [official kernel website](https://www.kernel.org/).
@@ -167,8 +161,10 @@ Comment on the frequency of exits – does the number of exits increase at a sta
   - Exit #29 - DR_ACCESS
   - Exit #0 - EXCEPTION_NMI
     
-##Question 1:
-Assignment done in group.
+<br />
+
+## Question 1:
+ Assignment done in group.
 Team Contribution
 
 Avinash :
@@ -184,3 +180,7 @@ Reviewed the canvas lecture and understood the steps to be taken
 Did some research on CPUID instructions and CPU leaf nodes.
 Recognized where and what changes to make in order to complete the assignment
 Test files were created and compiled.
+
+<br />
+
+
