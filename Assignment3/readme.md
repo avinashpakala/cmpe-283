@@ -4,12 +4,12 @@
 ## Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
 Screenshots :
 
-- Instructions
- - Continue from the previous environment used for the Assignment 2 
+Instructions
+ - Start from the previous environment used for the Assignment 2 
  - Modify the cpuid.c, vmx.c and cpuid.h as per the requirement and SDM 
  - Once Modified, Use the similar steps used in assignment 2, to rebuild the kernel 
  - Once Kernel is built do a reboot and launch the inner vm and run the test cases from inside. 
- Output should be somewhat like the below
+ Output should be like below
 ## Outer VM
 ![image](https://github.com/avinashpakala/cmpe-283/blob/main/Assignment3/output.png)
 
