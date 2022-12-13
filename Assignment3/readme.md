@@ -2,7 +2,7 @@
 
 
 ## Instrumentation Via Hyper-call (Add New CPUID Emulation Features in KVM)</br>
-Screenshots :
+
 
 Instructions
  - Start from the previous environment used for the Assignment 2 
