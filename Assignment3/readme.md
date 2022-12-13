@@ -8,6 +8,7 @@
 
 <br />
 
+
 - Assignment 3 modifies the behavior of the **cpuid** instruction for the following cases:
   - CPUID leaf node(`%eax=0x4ffffffd`)
     - Return the total number of exits for an exit number(passed as parameter) in **%ecx**, return the value in **%eax**.
@@ -54,7 +55,7 @@
     - `uname -mrs` 
     - Output: **Linux 6.0.7 x86_64**
     
-    ![](./images/uname.png)
+   <img width="1206" alt="205847814-2f66fc1b-7606-49e6-b432-63aa37723e87" src="https://user-images.githubusercontent.com/41760133/207228047-622df467-62e9-430c-a2af-055bb056e3dd.png">
 
 7) Made the code changes in the linux kernel code. Overwrite the below files with the files in this repo.
    - **vmx.c**: `/linux-6.0.7/arch/x86/kvm/vmx/vmx.c`
