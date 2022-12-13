@@ -1,7 +1,7 @@
 ### Assignment 3
 
 
-##Question 2: 
+## Question 2: 
 (Steps used to complete the assignment)
 Downloaded the source code in the VM from official kernel website.
 
@@ -100,7 +100,7 @@ T1: sudo dmesg
 
     
 
-##Question 3:
+### Question 3:
 Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are theremore exits performed during certain VM operations? Approximately how many exits does a full VM boot entail?
 
 For exits, HLT(10) and CPUID(12) the number of exits increases at a stable rates as these exits are called fairly regularly.
