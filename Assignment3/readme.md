@@ -14,9 +14,9 @@ Screenshots :
 ![image](https://user-images.githubusercontent.com/48201939/207239529-6639881a-e853-4817-9071-4f285f8d8f28.png)
 
 ## Inner VM 
-![image](https://user-images.githubusercontent.com/48201939/207240969-3d0bd130-5099-4ee7-afb5-f3c841a9c620.png)
+![image](https://github.com/avinashpakala/cmpe-283/blob/main/Assignment3/image2.png)
 <br>
-![image](https://user-images.githubusercontent.com/48201939/207239866-201e944f-efd7-490a-896e-e9a7f3b0f758.png)
+![image](https://github.com/avinashpakala/cmpe-283/blob/main/Assignment3/image3.png)
 
 
 
