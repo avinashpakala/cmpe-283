@@ -99,7 +99,7 @@ For testing the functionality, an nested VM was created in the GCP VM. The steps
     - **password**: `testing`
     
 
-
+205847814-2f66fc1b-7606-49e6-b432-63aa37723e87.png (2411×88)
 
 If everything went well, you should be in the inner vm, once you are on the inner vm, we can run the test code to check for the exits.
 </br>
