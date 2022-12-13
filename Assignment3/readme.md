@@ -11,7 +11,7 @@ Screenshots :
  - Once Kernel is built do a reboot and launch the inner vm and run the test cases from inside. 
  Output should be somewhat like the below
 ## Outer VM
-![image](https://user-images.githubusercontent.com/48201939/207239529-6639881a-e853-4817-9071-4f285f8d8f28.png)
+![image](https://github.com/avinashpakala/cmpe-283/blob/main/Assignment3/output.png)
 
 ## Inner VM 
 ![image](https://github.com/avinashpakala/cmpe-283/blob/main/Assignment3/image2.png)
